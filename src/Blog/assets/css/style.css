@@ -1,0 +1,155 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+ul,
+li {
+	font-family: 'Roboto', sans-serif;
+}
+* {
+	font-size: 14px;
+}
+.light_bg {
+	background-color: #eef0f8;
+}
+
+.post_content h2 {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.post_content p {
+	font-size: 0.8rem;
+	margin-top: 2%;
+}
+.unique-bg {
+	background-color: #6c77ff;
+	border-radius: 0;
+}
+a.btn.btn-sm.unique-bg.text-white.rounded-circle.size_equel.mr-lg-4,
+button.btn.unique-bg.mt-3 {
+	background-color: #6c77ff;
+	border-radius: 0;
+}
+.only-bg-color {
+	background-color: #6c77ff;
+}
+.b-radius {
+	border-radius: 8px !important;
+}
+.b-radius-0 {
+	border-radius: 0px !important;
+}
+.btn-info {
+	background-color: #53c4ff;
+}
+.btn-success {
+	background-color: #3cc18f;
+}
+.unique-dark {
+	background-color: #6c77ff;
+}
+button.btn.unique-dark.text-white.ml-4.btn-sm.mr-lg-4 {
+	background-color: #6c77ff;
+}
+.btn-cus {
+	border: 0;
+	border-radius: 0;
+	min-width: 100px;
+	margin-bottom: 1%;
+	outline: none;
+	white-space: nowrap;
+}
+
+/*add aritcle css*/
+
+.form_add_article {
+	background-color: #f6f6f6;
+	height: calc(100vh - 62px);
+}
+.btn_equal {
+	min-width: 100px;
+}
+.unique_color {
+	color: #6c77ff;
+}
+.border-unique {
+	border-color: #6c77ff;
+}
+.aritcle_box .form-control,
+.filelabel,
+.user_select .form-control {
+	height: calc(1.5em + 0.75rem + 9px);
+}
+.images_box img {
+	width: 49.5%;
+}
+.btn.btn-img-p {
+	padding: 6px 35px;
+}
+.tags_box {
+	min-height: 50px;
+}
+
+/*choose btn*/
+
+.filelabel {
+	min-width: 170px;
+	padding: 8px 0px 6px 14px;
+	transition: border 300ms ease;
+	cursor: pointer;
+	margin: 0;
+	background: #fff;
+	color: #1665c4;
+}
+.filelabel i {
+	font-size: 20px;
+	color: #1665c4;
+}
+.filelabel i,
+.filelabel .title {
+	transition: 200ms color;
+}
+
+.filelabel:hover i,
+.filelabel:hover .title {
+	color: grey;
+}
+#FileInput {
+	display: none;
+}
+
+/*airtcle-review*/
+
+.size_equel {
+	width: 28px;
+	height: 28px;
+	padding: 5px 0;
+}
+.text-light-gray {
+	color: #707070;
+}
+.light_blue {
+	background-color: #f2f5ff;
+}
+.rotate90 {
+	transform: rotate(90deg);
+}
+.profile-pic {
+	width: 35%;
+}
+.show-comment-btn {
+	min-width: 180px;
+	border: 0;
+	padding: 10px 0;
+}
+
+.btn-cus.btn-sm {
+	min-width: 65px;
+}
