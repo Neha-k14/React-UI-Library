@@ -6,7 +6,7 @@ const MyDemoStyle = ({ ...props }) => (
         <section className='add_aritcle_section pt-3 pb-3 shadow-sm'>
             <div className='container'>
                 <div className='row'>
-                    <p>Working !!!!!!! {props.name}</p>
+                    <p>It's Working !!!!!!! {props.name}</p>
                 </div>
             </div>
         </section>
